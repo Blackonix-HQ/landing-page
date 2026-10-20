@@ -25,7 +25,9 @@ The intended canonical domain is `https://blackonix.org`. Domain registration an
 
 ## Git integration
 
-Production can be published from this repository using the CLI commands above. Automatic deployment on push is pending installation of the Vercel GitHub App for `Blackonix-HQ/landing-page`; GitHub requires the owner's sign-in verification to finish installation. After installation, connect this repository to the existing project:
+The Vercel GitHub App has access to `Blackonix-HQ/landing-page`, and the repository is connected to the existing `blackonix-contractors` project. Pushes to `main` deploy to production. CLI publishing remains available with the commands above.
+
+To reconnect the same repository if needed:
 
 ```sh
 vercel git connect https://github.com/Blackonix-HQ/landing-page.git --yes --scope 1solomonwakhungus-projects
