@@ -11,7 +11,7 @@ Industrial field manual, translated into a sharp contractor-facing website. Larg
 - Rectangular buttons and input controls, no decorative card chrome. Dividers separate real rows. Orange not used for small text on white.
 
 ## Composition
-Asymmetric hero: left typography, copy and action; right image continues to the edge of its frame with a dark field-notes caption. A horizontal trust line follows. Light workflow section is a wide typographic list paired with a document specimen. The dark numbered process has exactly three sequential steps. The about section has a strong typographic human introduction without a fabricated portrait. The form ends the page on a warm paper surface.
+Asymmetric hero: left typography, copy and action; right image continues to the edge of its frame with a dark field-notes caption. A horizontal trust line follows. Light workflow section is a wide typographic list paired with a document specimen. The dark numbered process has exactly three sequential steps. The founder section was removed at the owner’s request. The form ends the page on a warm paper surface.
 
 ## Behavior
 One authored reveal on the illustrative document as it enters view, using a short clipping transition. Content remains visible without scripting. Reduced motion disables animated scrolling and the reveal. Hover colors and focus outlines remain legible. Form uses native required/email validation, then creates a mailto draft with clear state and fallback address.
