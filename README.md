@@ -2,7 +2,9 @@
 
 The one-page Blackonix website for Greater Houston contractors. The site introduces custom tools for bids, submittals, field paperwork, and invoice tracking, with a free test using one old bid package.
 
-Private repository: https://github.com/Blackonix-HQ/houston-contractor-workflows
+Public repository: https://github.com/Blackonix-HQ/landing-page
+
+Live website: https://blackonix-contractors.vercel.app
 
 ## Local development
 

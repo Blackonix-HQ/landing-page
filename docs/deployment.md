@@ -2,9 +2,11 @@
 
 Target: Vercel project `blackonix-contractors`, under `1solomonwakhungus-projects`.
 
-Source: private GitHub repository `Blackonix-HQ/houston-contractor-workflows`, production branch `main`.
+Source: public GitHub repository `Blackonix-HQ/landing-page`, production branch `main`.
 
-The project uses the Vite preset, `npm ci`, `npm run build`, and the `dist` output directory. Source visibility is private. Local Vercel state and generated environment files are ignored by Git.
+The project uses the Vite preset, `npm ci`, `npm run build`, and the `dist` output directory. Local Vercel state and generated environment files are ignored by Git.
+
+The repository moved on 2026-10-20 with its original Git history preserved. The existing Vercel project and public URL, `https://blackonix-contractors.vercel.app`, are retained.
 
 ## Publish
 
@@ -23,7 +25,11 @@ The intended canonical domain is `https://blackonix.org`. Domain registration an
 
 ## Git integration
 
-The source remains private. Vercel's Git connection attempt could not access the new organization repository. This does not prevent local CLI deployment. To enable automatic deployment on push, grant the Vercel GitHub installation access to `Blackonix-HQ/houston-contractor-workflows` and reconnect it in project settings. Plan restrictions can also apply to organization-owned repositories.
+Production can be published from this repository using the CLI commands above. Automatic deployment on push is pending installation of the Vercel GitHub App for `Blackonix-HQ/landing-page`; GitHub requires the owner's sign-in verification to finish installation. After installation, connect this repository to the existing project:
+
+```sh
+vercel git connect https://github.com/Blackonix-HQ/landing-page.git --yes --scope 1solomonwakhungus-projects
+```
 
 ## Hosting account
 
